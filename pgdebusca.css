@@ -1,0 +1,222 @@
+*{
+  
+    margin: 0;
+    font-family: "NothingYouCouldDo";
+}
+
+
+.header{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows: 55px;
+background-color: #121618; 
+}
+
+.titletext{
+    color: rgb(255, 255, 255);
+}
+
+.logoimg{
+    height: 25px;
+    width: 25px;
+  padding-left: 5px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    grid-column: 6/6;
+ padding-right: 20px;
+ padding-top: 20px;
+    
+} 
+
+.elementoul{
+    padding-left: 27px;
+}
+
+.as{
+    color: rgb(255, 255, 255);
+    text-decoration: none;  
+    font-weight: bold;
+}
+
+.title h3{
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.header a:hover{
+    color: #FAC564;
+}
+
+.corpodosite{
+    display: grid;
+    grid-template-columns: 0.3fr 0.1fr 0.1fr  ;
+    grid-template-rows: 200px 200px 160px 200px 90px;
+    background-image: url(wood-floor-background-wl3vty8w87fpi887.jpg);
+  
+}
+
+.texto{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 2/2;
+    padding-top: 20px;
+}
+
+
+.pizza1{
+width: 300px;
+}
+
+.fstpic{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    padding-left: 500px;
+}
+
+.scpic{
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.pizza2{
+    width: 300px;
+}
+
+.thirdpic{
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+.pizza3{
+    width: 300px;
+}
+
+.fthpic{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    padding-left: 500px;
+}
+
+.pizza4{
+    width: 300px;
+}
+
+.fifthpic{
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.pizza5{
+    width: 300px;
+    height: 167px;
+}
+
+.sixthpic{
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+.pizza6{
+    width: 300px;
+    height: 167px;
+}
+
+.macarrao{
+    grid-column: 1/1;
+    grid-row: 4/4;
+    padding-left: 500px
+}
+
+.pasta1{
+    width: 300px;
+}
+
+.macarraodois{
+    grid-column: 2/2;
+    grid-row: 4/4;
+
+}
+
+.pasta2{
+    width: 300px;
+    height: 169px;
+}
+
+.macarraotres{
+    grid-column: 3/3;
+    grid-row: 4/4;
+
+}
+
+.pasta3{
+    width: 300px;
+    height: 169px;
+}
+
+.end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    background-color: #3b2424;
+}
+
+.tlt{
+    display: flex;
+    padding-top: 10px;
+    grid-column: 1/1;
+    padding-left: 200px;
+    
+ }
+ 
+ .location{
+     display: flex;
+    padding-top: 10px;
+    grid-column: 2/2;
+    padding-left: 200px;
+ }
+ 
+ .hrfuncionamento{
+     display: flex;
+     padding-top: 10px;
+     grid-column: 3/3;
+     padding-left: 200px;
+ }
+ 
+ .elementosvg{
+     width: 20px;
+     height: 20px;
+    
+ }
+ 
+ .hs{
+     padding-left: 20px;
+ }
+ 
+ .bandeirait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20px;
+    background-color: black;
+ }
+
+ .primeiraparte{
+    background-color: greenyellow;
+    grid-column: 1/1;
+    grid-template-rows: 4/4;
+    
+}
+
+.secparte{
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/2;
+}
+
+.terceiraparte{
+    background-color: red;
+    grid-column: 3/3;
+}
